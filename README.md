@@ -43,4 +43,7 @@ public class SwaggerConfig {
 ````
 
 Swagger also provides some default values in its response that you can customize, such as “Api Documentation”, “Created by Contact Email”, “Apache 2.0”.
-To change these values, you can use the **apiInfo(ApiInfo apiInfo)** method. 
+To change these values, you can use the **apiInfo(ApiInfo apiInfo)** method.
+
+
+**@ApiResponses**annotation is used to customize error messages with Swagger
