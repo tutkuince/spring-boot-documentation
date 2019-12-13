@@ -18,6 +18,22 @@ Dynamically generated documentation from a Swagger-compliant API is displayed in
 
 Besides rendering documentation, Swagger UI allows other API developers or consumers to interact with the API’s resources without having any of their implementation logic in place.
 
+Dependencies
+````
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>2.9.2</version>
+</dependency>
+
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.9.2</version>
+    <scope>compile</scope>
+</dependency>
+````
+
 
 Three potential users of SwaggerUI;
 - External developers wanting to use your API
